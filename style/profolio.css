@@ -27,6 +27,9 @@ nav{
   .dark-2{
     color: #474747;
   }
+  .text-center{
+    text-align: center;
+  }
   .btn-primary{
     background-color: #FD6E0A;
     color: white;
@@ -54,6 +57,9 @@ nav{
     list-style-type: none;
     margin-right: 52px;
   }
+  .secondary-bg{
+    background-color: #FFF8F3;
+  }
   nav ul{
     display: flex;
     align-items: center;
@@ -73,4 +79,47 @@ nav{
   .photo{
     height: 676px;
     width: 584px;
+  }
+  .section-title{
+font-size: 35px;
+font-weight: bold;
+  }
+  .dark-1{
+    color: #181818;
+  }
+  .about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+ 
+  }
+  .abouts-items{
+    display: flex;
+    justify-content: space-around;
+  }
+  .about-title{
+    font-size: 20px;
+    color: #757575;
+  }
+  .about-description{
+    font-weight: bold;
+    font-size: 20px;
+    color:#474747;
+  }
+  main{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  main section{
+    margin-top: 130px;
+    margin-bottom: 120px;
+  }
+  .skills-box{
+    display: flex;
+    gap: 25px;
+  }
+  .skill{
+    padding: 30px;
+    box-shadow: 0px 6px 60px 0px  ;
+    border-radius: 5px;
   }
